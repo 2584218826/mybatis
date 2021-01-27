@@ -1,0 +1,11 @@
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/girls?useSLL=true&useUnicode=true&characterEncoding=UTF-8&serverTimezone=UTC
+    username: root
+    password: 13456979826a
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+mybatis:
+  type-aliases-package: cn.xjt.batis.pojo
+  mapper-locations: classpath:myabtis/mapper/*.xml
+#    整合mybatis
